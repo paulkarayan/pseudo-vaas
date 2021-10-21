@@ -1,0 +1,12 @@
+version: '3.9'
+
+services:
+  vaas:
+    container_name: vaas
+    image: pk/vaas:latest
+    volumes:
+      - .:/app
+      - ./config/.secrets:/root/.secrets
+    ports:
+      - 8008:8000
+    command: uvicorn app.main:app --host 0.0.0.0
