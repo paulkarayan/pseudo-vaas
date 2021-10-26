@@ -1,7 +1,7 @@
 uvicorn[standard]==0.15.0
 gunicorn==20.1.0
 fastapi==0.68.1
-pydantic~=1.8.2
+pydantic[email]~=1.8.2
 monkeylearn~=3.6.0
 git+git://github.com/irregularengineering/configular@274cacd13dfef334d671cb65b88d2ec8b4959e11
 git+git://github.com/khlevon/shutterstock-sdk@7ad024e564a9e600065c18ba386474e97d7038f4

@@ -11,6 +11,9 @@ api_key=
 [Shutterstock]
 consumer_key=
 consumer_secret=
+
+[HunterIO]
+api_key=
 ```
 
 ### 2. Running tools locally
